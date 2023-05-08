@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  border: none;
+  scroll-behavior: smooth;
+  font-family: "Teko", sans-serif;
+}
+
+:root {
+  --bg-color: #efefef;
+  --second-bg-color: #1a1a1a;
+  --text-color: #550074;
+  --text-color2: #e8aa01;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+section {
+  min-height: 100vh;
+  padding: 10rem 9% 2rem;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem 1%;
+  background: var(--bg-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.header img {
+  width: 100px;
+  height: auto;
+  cursor: default;
+}
+
+.header-text {
+  text-decoration: none;
+  font-size: 7rem;
+  padding-left: 1.5rem;
+  padding-top: 1rem;
+  color: var(--second-bg-color);
+  cursor: default;
+}
+
+.header-text span {
+  color: var(--text-color);
+  pointer-events: none;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+
+.logo :hover {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+.navbar a {
+  padding: 0 2rem;
+  font-size: 3.4rem;
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: var(--second-bg-color);
+  text-decoration: none;
+}
+
+.pocetna {
+  /* background-color: var(--second-bg-color); */
+  padding:  0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+  width: 100%;
+  min-height: 76vh;
+  background-color: #e8aa01;
+}
+
+.dostupnost {
+  min-height: 12vh;
+  background-color: aqua;
+}
+
+.cena {
+  background-color: #550074;
+  min-height: 12vh;
+}

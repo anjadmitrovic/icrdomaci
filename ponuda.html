@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="main.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="logo">
+        <a href="#"><img src="logo.png" alt="logo stranice" /></a>
+        <a href="#" class="header-text"><span>C</span>yper<span>W</span>ebb</a>
+      </div>
+      <div class="nav">
+        <nav class="navbar">
+          <a href="#pocetna">POČETNA</a>
+          <a href="#ponuda">PONUDA</a>
+          <a href="#blog">BLOG</a>
+          <a href="#kontakt">KONTAKT</a>
+        </nav>
+      </div>
+    </header>
+    <section class="main">
+      <section class="pocetna" id="pocetna">
+        <div class="info" class="inside">
+          <div class="info-text">
+            <h2>Najkvalitetniji hosting u Srbiji!</h2>
+            <p>
+              Mi smo CyperWebb hosting provajder iz Srbije koji Vam nudi usluge
+              po svetskim standardima na domaćem tržištu. Naše usluge
+              prilagođene su kako fizičkim tako i pravnim licima.
+            </p>
+            <p>
+              Registracije domena su, pored povoljnih usluga hosting ponude
+              usklađene sa nabavnim cenama, tako da su troškovi Vašeg nastupa na
+              internetu svedeni na minimum.
+            </p>
+
+            <p>
+              Stabilno i sigurno hosting rešenje predstavlja potporu u osvajanju
+              internet tržišta. Uz našu podršku na tom putu Vama preostaje da se
+              fokusirate na ciljeve Vašeg biznisa.
+            </p>
+          </div>
+          <div class="info-img">
+            <img src="glavna.png" class="img-fluid" alt="mapa hostinga" />
+          </div>
+        </div>
+      </section>
+      <section class="domain">
+        <div class="dostupnost">
+          <div class="dostupnost-text">
+            <p>Proverite dostupnost domena</p>
+          </div>
+
+          <div class="dostupnost-input">
+            <input type="text" placeholder="Unesite naziv domena" />
+            <div class="dugme">
+              <button>TRAŽI</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="cena">
+        <div class="cena-text">
+          <p>
+            .com 1400 rsd / .net 1500 rsd / .info 1800 rsd / .rs 2300 rsd /
+            .co.rs 850 rsd / .in.rs 500 rsd
+          </p>
+          <p>Cena na godišnjem nivou</p>
+        </div>
+      </section>
+    </section>
+    <section class="main" id="ponuda">
+      <div class="ponuda-wrap">
+        <div class="ponuda-text">
+          <h3>Izaberite najbolju ponudu</h3>
+        </div>
+        <div class="ponuda-prozor">
+          <div class="prozor" id="prozor1">
+            <div class="prozor-text"><p>Web hosting</p></div>
+            <div class="unutrasnji-prozor">
+              <ul>
+                <li>4 GB prostora</li>
+                <li>1 CPU core</li>
+                <li>1 GB RAM</li>
+              </ul>
+              <button onclick="window.location.href = 'webhosting.html';">DETALJNIJE</button>
+            </div>
+          </div>
+          <div class="prozor" id="prozor2">
+            <div class="prozor-text"><p>Business hosting</p></div>
+            <div class="unutrasnji-prozor">
+              <ul>
+                <li>25 GB prostora</li>
+                <li>2 CPU core</li>
+                <li>4 GB RAM</li>
+              </ul>
+              <button onclick="window.location.href = 'businesshosting.html';">DETALJNIJE</button>
+            </div>
+          </div>
+          <div class="prozor" id="prozor3">
+            <div class="prozor-text"><p>VPS server</p></div>
+            <div class="unutrasnji-prozor">
+              <ul>
+                <li>25 GB prostora</li>
+                <li>2 CPU core</li>
+                <li>4 GB RAM</li>
+              </ul>
+              <button>DETALJNIJE</button>
+            </div>
+          </div>
+          <div class="prozor" id="prozor4">
+            <div class="prozor-text"><p>Dedicated server</p></div>
+            <div class="unutrasnji-prozor">
+              <ul>
+                <li>1 TB prostora</li>
+                <li>8 CPU core</li>
+                <li>16 GB RAM</li>
+              </ul>
+              <button>DETALJNIJE</button>
+            </div>
+          </div>
+        </div>
+        <div class="ponuda-text">
+          <p>
+            Svi paketi obuhvataju servere koji koriste SSD diskove i besplatan
+            SSL sertifikat
+          </p>
+        </div>
+      </div>
+    </section>
+    <div class="linija-wrap">
+      <div class="linija"></div>
+    </div>
+    <section class="main" id="blog">
+      <div class="blog-img">
+        <img src="slikablog.png" class="img-fluid" alt="slika za blog" />
+      </div>
+      <div class="blog-text">
+        <h4>PRELAZITE KOD NAS?</h4>
+        <p>
+          Nudimo Vam besplatnu migraciju! Dovoljno je da kontaktirate naše
+          operatere podrške i mi ćemo obaviti sva potrebna prebacivanja umesto
+          Vas. Prebacićemo sve fajlove, baze podataka, email naloge kao i ostalo
+          što poželite. Migracija se obavlja brzo i Vaš sajt ni u jednom
+          trenutku neće biti nedostupan za vreme prebacivanja na naše servere.
+          Izaberite neki od web hosting ili reseller paketa. Ukoliko smatrate da
+          Vam je potrebno više resursa, nudimo Vam i VPS, Cloud i dedicated
+          (namenske) servere.
+        </p>
+        <h5>Imate dilemu ili pitanje pre kupovine?</h5>
+        <div class="contact-wrap">
+          <p>Pozovite nas<br />Ponedeljak - petak 09-17h<br />+381601234567</p>
+        </div>
+      </div>
+    </section>
+    <section class="main" id="kontakt">
+      <div class="kontakt-wrap">
+        <div class="mail-text">
+          <p>Prijavite se na našu mail listu</p>
+        </div>
+        <div class="mail">
+          <input type="text" placeholder="Unesite email adresu" />
+          <button>PRIJAVA</button>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-logo-wrap">
+        <a href="#">
+          <div class="footer-logo">
+            <div class="footer-img">
+              <img src="logo crno belo.png" alt="logo crno beli" />
+            </div>
+            <div class="footer-text">
+              <p>CyperWebb</p>
+            </div>
+          </div>
+        </a>
+        <div class="footer-info">
+          <div class="footer-info-img">
+            <img src="posao.png" alt="logo" />
+          </div>
+          <div class="footer-info-text">
+            <p>Kontakt telefon: +381601234567</p>
+            <p>Radno vreme: ponedeljak - petak 09-17h</p>
+            <p>PIB:01234567</p>
+            <p>Matični broj: 00123435</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
